@@ -1,0 +1,42 @@
+body{
+    margin: auto 0;
+}
+.header{
+    background-color: rgba(137, 176, 223);
+    height: 50vh;
+
+}
+.container{
+    margin:0 auto;
+}
+h2{
+    font-weight: 800;
+}
+.row{
+    display: flex;  
+    max-width: 1000px;
+}
+.col-2{
+    width: 100/ 2 ;
+    padding: 1rem;
+
+}
+.left h2{
+    color:rgb(38, 84, 157) ;
+}
+.left{
+    background-color: white;
+    color: grey;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.right{
+    background-color:rgb(58, 58, 193) ;
+    color: white;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+input{
+    border: none;
+    border-bottom: 2px groove grey;
+}
