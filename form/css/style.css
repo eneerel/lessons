@@ -3,18 +3,14 @@ body{
 }
 .header{
     background-color: rgba(137, 176, 223);
-    height: 50vh;
+    height: 55vh;
 
-}
-.container{
-    margin:0 auto;
 }
 h2{
     font-weight: 800;
 }
 .row{
     display: flex;  
-    max-width: 1000px;
 }
 .col-2{
     width: 100/ 2 ;
@@ -27,16 +23,53 @@ h2{
 .left{
     background-color: white;
     color: grey;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 .right{
     background-color:rgb(58, 58, 193) ;
     color: white;
-    border-bottom-right-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
-input{
+.left input{
     border: none;
-    border-bottom: 2px groove grey;
+    border-bottom: 2px groove rgb(205, 202, 202);
+    padding: 1.3rem;
+    outline: none;
 }
+.left select{
+    border: none;
+    border-bottom: 2px groove rgb(205, 202, 202);
+    padding: 1.3rem;
+}
+.right input{
+    border: none;
+    border-bottom: 2px groove rgb(205, 202, 202);
+    background-color:rgb(58, 58, 193);
+    color: white;
+    padding: 1.3rem;
+    outline: none;
+}
+.right input::placeholder{
+    color: white;
+}
+.right select{
+    background-color:rgb(58, 58, 193);
+    border: none;
+    border-bottom: 2px groove rgb(205, 202, 202);
+    color: white;
+    padding: 1.3rem;
+
+}
+#sub{
+    border-left:grey 1px groove ;
+    border-top: 1px grey groove;
+    border-right: black 1px groove;
+    border-bottom: 1px bklack groove;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+

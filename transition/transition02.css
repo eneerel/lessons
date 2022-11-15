@@ -1,0 +1,54 @@
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px rgb(60, 59, 59) groove;
+    margin: 0 auto;
+    position: relative;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+    color: white; 
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-weight: 700;
+}
+.normal{
+    background-color: blue;
+    z-index: 3;
+
+}
+.container:hover .normal{
+    top: 0;
+    left: 0;
+    transition-duration:2s  ;
+}
+.example-1{
+    background-color: red;
+    z-index: 2;
+    transition-duration: 2s, 1s, 2s;
+    transition-property :top, left, background-color border-radius ;
+}
+.container:hover .example-1{
+    top: 0;
+    left: 380px;
+    background-color: orange;
+    border-radius: 0;
+   
+}
+.example-2{
+    background-color: green;
+    z-index: 1;
+    transition-duration: 0.5s, 4s;
+    transition-property: top, left  ;
+}
+.container:hover .example-2{
+top: 380px;
+left: 380px;
+
+
+}

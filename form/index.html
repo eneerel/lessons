@@ -25,9 +25,14 @@
                             <input id="date" name="date" type="date" placeholder="date">
                         </div>
                         <label for="company"> </label>
-                        <input id="company"  type="text">
+                        <input id="company"  type="text" placeholder="Company">
                         <div>
-                            <select name="position" id="position" placeholder=""></select>
+                            <select name="position" id="position" placeholder="Position">
+                                <option value="">Position</option>
+                                <option value="">enginer</option>
+                                <option value="">doctor</option>
+                                <option value="">ui ux designer</option>
+                            </select>
                         </div>
                       </div>
                     </form>
@@ -36,21 +41,21 @@
                     <h2>Contact Details </h2>
                     <form action="">
                         <label for="Street"></label>
-                        <input id="street" name="street" type="text" placeholder="Firstname">
+                        <input id="street" name="street" type="text" placeholder="Street">
                         <div>
-                            <label for="additional"</label>
-                            <input id="add" name="additional" type="text" placeholder="Firstname">
+                            <label for="additional"></label>
+                            <input id="add" name="additional" type="text" placeholder="Additional Information">
                         </div>
                         <label for="zip code"> </label>
-                        <input id="zipcode" name="zipcode" type="password" placeholder="Firstname">
-                        <select name="Place" id="place">
+                        <input id="zipcode" name="zipcode" type="password" placeholder="Zip Code ">
+                        <select name="Place" id="place" aria-placeholder="Place">
                             <option value="">Place</option>
                                 <option value="">Улаанбаатар</option>
                                 <option value="">Дархан</option>
                                 <option value="">Эрдэнэт</option>
                         </select>
                         <div>
-                            <select name="country" id="country">
+                            <select name="country" id="country" placeholder="Country">
                                 <option value="">country</option>
                                 <option value="">Улаанбаатар</option>
                                 <option value="">Дархан</option>
@@ -59,14 +64,15 @@
                             </select>
                         </div>
                         <label for="code"></label>
-                        <input id="code" name="code" type="password" placeholder="Firstname">
+                        <input id="code" name="code" type="password" placeholder="Code ">
                         <label for="phone"></label>
-                        <input id="phone" name="number" type="number" placeholder="Firstname">
-                        <div>
-                            <input type="checkbox"> <p>I do acceptthe Terms and Conditions of your site.</p>
+                        <input id="phone" name="number" type="number" placeholder="Phone Number">
+                        <div class="row">
+                            <input type="checkbox"> 
+                            <p>I do accept the Terms and Conditions of yor site. </p>
                         </div>
-                        <label for="Register Badge ">Register Badge </label>
-                        <input id="sub" name="sub" type="submit" placeholder="Firstname">
+                        <label for="Register Badge "> </label>
+                        <input id="sub" name="sub" type="submit" placeholder="Register Badge ">
                     </form>
                 </div>
         </div>
