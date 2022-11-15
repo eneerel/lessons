@@ -1,0 +1,21 @@
+.touch{
+    width: 100px;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: rgb(162, 162, 162);
+    border-radius: 60px;
+}
+.ball{
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    border-radius: 60px;
+
+}
+.touch:hover{
+    background-color: rgb(89, 89, 242);
+
+}
+.touch:hover .ball{
+    left: 50px;
+}
