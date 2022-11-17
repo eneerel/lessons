@@ -1,75 +1,73 @@
-body{
-    margin: auto 0;
+*{
+    font-family:Arial, Helvetica, sans-serif;
 }
-.header{
+.container{
     background-color: rgba(137, 176, 223);
-    height: 55vh;
-
+    width: 100vw;
+    height: 90vh;
 }
-h2{
-    font-weight: 800;
+form{
+    display: flex;
+    justify-content: center;
 }
 .row{
-    display: flex;  
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
-.col-2{
-    width: 100/ 2 ;
-    padding: 1rem;
+
+.row1{
+    background-color: white;
+    border-radius: 20px 0 0 20px ;
+}
+.row1 input::placeholder,.row_1 input, .row_1 select{
+    color:rgb(128, 127,  131);
+}
+input, select{
+    border: none;
+    padding: 10px;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.row2 input::placeholder, .row2 select, a, .row2 label{
+    color: white;
+}  
+.row2 input, .row2 select{
+    
+    border-bottom: 1px solid white;
+}
+h2{
+    color:rgb(38, 84, 157);
+    margin: 0;
+}
+
+.row2 h2{
+    color:white
+}
+.row2{
+    background-color:rgb(58, 58, 193);
+    border-radius: 0 20px 20px 0 ;
+}
+#register{
+    background-color: white;
+    border: inset 2px grey;
+    border-radius: 20px;
+    width: 150px ;
+    padding: 5px;
+}
+
+.address {
+    display: flex;
+}
+
+.address-two{
+    flex: 1;
 
 }
-.left h2{
-    color:rgb(38, 84, 157) ;
-}
-.left{
-    background-color: white;
-    color: grey;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-}
-.right{
-    background-color:rgb(58, 58, 193) ;
-    color: white;
-    border-bottom-right-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-}
-.left input{
-    border: none;
-    border-bottom: 2px groove rgb(205, 202, 202);
-    padding: 1.3rem;
-    outline: none;
-}
-.left select{
-    border: none;
-    border-bottom: 2px groove rgb(205, 202, 202);
-    padding: 1.3rem;
-}
-.right input{
-    border: none;
-    border-bottom: 2px groove rgb(205, 202, 202);
-    background-color:rgb(58, 58, 193);
-    color: white;
-    padding: 1.3rem;
-    outline: none;
-}
-.right input::placeholder{
-    color: white;
-}
-.right select{
-    background-color:rgb(58, 58, 193);
-    border: none;
-    border-bottom: 2px groove rgb(205, 202, 202);
-    color: white;
-    padding: 1.3rem;
 
-}
-#sub{
-    border-left:grey 1px groove ;
-    border-top: 1px grey groove;
-    border-right: black 1px groove;
-    border-bottom: 1px bklack groove;
-    background-color: white;
-    color: black;
-    border-radius: 2rem;
-    padding: 0.5rem;
+.place{
+    width: 100%;
 }
 

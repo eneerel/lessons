@@ -4,80 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
     <link rel="stylesheet" href="./css/style.css">
+    <title>Registration form</title>
 </head>
 <body>
-    <header class="header">
-            <div class="row container ">
-                <div class="col-2 left">
-                 <h2>General Information </h2>
-                    <form action="">
-                        <label for="firstname " > </label>
-                        <input id="firstname " name="ovog" placeholder="Firstname" type="text">
-                        <label for="lastname"></label>
-                        <input id="lastname " name="ner" type="text" placeholder="Lastname">
-                        <div>
-                        <label for="email"></label>
-                        <input id="email" name="mail" type="text"placeholder="Email">
-                        <div>
-                            <label for="date"></label>
-                            <input id="date" name="date" type="date" placeholder="date">
-                        </div>
-                        <label for="company"> </label>
-                        <input id="company"  type="text" placeholder="Company">
-                        <div>
-                            <select name="position" id="position" placeholder="Position">
-                                <option value="">Position</option>
-                                <option value="">enginer</option>
-                                <option value="">doctor</option>
-                                <option value="">ui ux designer</option>
-                            </select>
-                        </div>
-                      </div>
-                    </form>
-                </div>
-                <div class="col-2 right">
-                    <h2>Contact Details </h2>
-                    <form action="">
-                        <label for="Street"></label>
-                        <input id="street" name="street" type="text" placeholder="Street">
-                        <div>
-                            <label for="additional"></label>
-                            <input id="add" name="additional" type="text" placeholder="Additional Information">
-                        </div>
-                        <label for="zip code"> </label>
-                        <input id="zipcode" name="zipcode" type="password" placeholder="Zip Code ">
-                        <select name="Place" id="place" aria-placeholder="Place">
-                            <option value="">Place</option>
-                                <option value="">Улаанбаатар</option>
-                                <option value="">Дархан</option>
-                                <option value="">Эрдэнэт</option>
-                        </select>
-                        <div>
-                            <select name="country" id="country" placeholder="Country">
-                                <option value="">country</option>
-                                <option value="">Улаанбаатар</option>
-                                <option value="">Дархан</option>
-                                <option value="">Эрдэнэт</option>
-            
-                            </select>
-                        </div>
-                        <label for="code"></label>
-                        <input id="code" name="code" type="password" placeholder="Code ">
-                        <label for="phone"></label>
-                        <input id="phone" name="number" type="number" placeholder="Phone Number">
-                        <div class="row">
-                            <input type="checkbox"> 
-                            <p>I do accept the Terms and Conditions of yor site. </p>
-                        </div>
-                        <label for="Register Badge "> </label>
-                        <input id="sub" name="sub" type="submit" placeholder="Register Badge ">
-                    </form>
-                </div>
-        </div>
-     
+    <div class="container">
 
-    </header>
+        <form>
+            <div class="row row1">
+                <h2>General Information</h2>
+                <div>
+                    <input type="text" name="fname" placeholder="First Name">
+                
+                    <input type="text" name="name" placeholder="Last Name">
+                </div>
+                <input type="email" name="email" placeholder="Email">
+                
+                <input type="date" name="date" >
+    
+                <input type="text" name="company" placeholder="Company">
+    
+                <select name="position"placeholder="Position">
+                    <option disabled selected hidden>Position</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="engineer">Engineer</option>
+                    <option value="system admin">System admin</option>
+                </select>
+            </div>
+            <div class="row row2">
+                <h2>Contact Details</h2>
+    
+                <input type="text" name="street" placeholder="Street">
+                
+                <input type="text" name="addinfo" placeholder="Additional Information">
+                <div class="address">
+                    <div class="address-two">
+                        <input type="number" name="zip_code" min="1" placeholder="Zip Code">
+                    </div>
+                    
+                    <div class="address-two">
+                        <select name="place" class="place">
+                        <option disabled selected hidden>Place</option>
+                        <option value="baynzurh">Baynzurkh</option>
+                        <option value="han_uul">Khan uul</option>
+                        <option value="bayngol">Bayngol</option>
+                        <option value="sukhbaatar">Sukhbaatar</option>
+                    </select></div>
+                </div>
+                <select name="country">
+                    <option disabled selected hidden>Country</option>
+                    <option value="Mongolia"></option>
+                    <option value="Korea"></option>
+                    <option value="Japan"></option>
+                    <option value="Australia"></option>
+                </select>
+                <div>
+                    <input type="number" name="code" min="1" placeholder="Code">
+    
+                    <input type="number" name="phone_number" min="1" placeholder="Phone number">
+                </div>
+                <div>
+                    <input type="checkbox" name="t&c" value="t&c">
+                    <label for="t&c">i do accept the <a href="https://www.google.com/">Terms and Condition</a> of your site</label>
+                </div>
+                <input id="register" type="submit" value="Register Badge">
+    
+            </div>
+        </form>
+    </div>
 </body>
 </html>
