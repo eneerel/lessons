@@ -1,15 +1,18 @@
+.container{
+margin: 40vh 50vw;
+}
 .switch input {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
   }
   .slider {
     position: absolute;
     cursor: pointer;
-    width: 75px;
+    width: 100px;
     height: 50px;
-    background-color: #ccc;
+    background-color: rgb(223, 221, 221);
     transition: 0.5s;
-    border: 0.5px solid rgb(101, 101, 101);
+    border: 1px solid rgb(68, 67, 67);
     border-radius: 35px;
   }
   
@@ -27,8 +30,8 @@
     background-color: #1671bb;
   }
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
   }
   

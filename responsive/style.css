@@ -68,13 +68,13 @@ body{
   /* Mobile screen */
   @media screen and (max-width: 480px) {
     body {
-      background-color: red;
+      background-color: rgb(233, 181, 253);
     }
   }
   /* ipad and tablet */
   @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
-      background-color: blue;
+      background-color: rgb(156, 156, 224);
     }
     h1 {
     }
@@ -82,7 +82,7 @@ body{
   /* small sreens and laptops */
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     body {
-      background-color: salmon;
+      background-color: rgb(249, 186, 179);
     }
     .icon {
       display: block;
