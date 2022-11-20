@@ -1,0 +1,72 @@
+.container{
+    padding: 30px;
+    background-color: rgb(68, 180, 131);
+    margin: 0 auto;
+    max-width: 80vw;
+    height: 55vh;
+}
+.row{
+    display: flex;
+}
+img{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    filter:grayscale(100%);
+    transition: all 1s;
+}
+.col-3 {
+    width: calc(100% / 3);
+    position: relative;
+    height: 135px;
+}
+.col-3:hover  .ov1 {
+    opacity: 0;
+    transform: translate(-100%, -100%);
+}
+.col-3:hover  .ov2 {
+    opacity: 0;
+    transform: translate(0%, -100%);
+}
+.col-3:hover  .ov3 {
+    opacity: 0;
+    transform: translate(100%, -100%);
+}
+.col-3:hover  .ov4 {
+    opacity: 0;
+    transform: translate(-100%, 0%);
+}
+.col-3:hover  .ov5 {
+    opacity: 0;
+    transform: translate(0%);
+}
+.col-3:hover  .ov6 {
+    opacity: 0;
+    transform: translate(100%, -1%);
+}
+.col-3:hover  .ov7 {
+    opacity: 0;
+    transform: translate(-100%, 100%);
+}
+.col-3:hover  .ov8 {
+    opacity: 0;
+    transform: translate(-1%, 50%);
+}
+.col-3:hover  .ov9 {
+    opacity: 0;
+    transform: translate(60%, 60%);
+}
+.col-3:hover img {
+    opacity: 100%;
+    filter:grayscale(0%);
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+}
