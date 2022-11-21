@@ -1,0 +1,44 @@
+.container{
+    border: 1px solid black;
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+.col-2{
+    width: 20vw;
+    border: 1px solid black;
+    position: relative;
+    height: 20vh;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: 20px  black inset ;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(226, 147, 147, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 2s ease;
+}
+.container:hover .ov1{
+    opacity: 0;
+    transform: translate(-100%, -100%);
+}
+.container:hover .ov2{
+    opacity: 0;
+    transform: translate(100%, -100%);
+}
+.container:hover .ov3{
+    opacity: 0;
+    transform: translate(-100%, 100%);
+}
+.container:hover .ov4{
+    opacity: 0;
+    transform: translate(60%, 60%);
+}
