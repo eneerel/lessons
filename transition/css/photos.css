@@ -1,64 +1,71 @@
+body{
+    max-width: 400px;
+      
+}
 .container{
     padding: 30px;
     background-color: rgb(68, 180, 131);
     margin: 0 auto;
-    max-width: 80vw;
-    height: 55vh;
+  
 }
 .row{
     display: flex;
 }
-img{
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    filter:grayscale(100%);
-    transition: all 1s;
-}
 .col-3 {
     width: calc(100% / 3);
     position: relative;
-    height: 135px;
+    height: 100px;
 }
-.col-3:hover  .ov1 {
+
+ img{
+    box-sizing: border-box;
+    height: 100px;
+    width: 115px;
+    filter:grayscale(100%);
+    transition: all 0.3s;
+}
+
+
+.col-3:hover img {
+    filter: grayscale(0%);
+}
+
+.col1:hover .overlay {
     opacity: 0;
     transform: translate(-100%, -100%);
 }
-.col-3:hover  .ov2 {
+
+.col2:hover .overlay {
     opacity: 0;
-    transform: translate(0%, -100%);
+    transform: translate(0, -100%);
 }
-.col-3:hover  .ov3 {
+.col3:hover .overlay {
     opacity: 0;
-    transform: translate(100%, -100%);
+    transform: translate(60%, -50%);
 }
-.col-3:hover  .ov4 {
+.col4:hover .overlay {
     opacity: 0;
     transform: translate(-100%, 0%);
 }
-.col-3:hover  .ov5 {
+.col5:hover .overlay {
     opacity: 0;
     transform: translate(0%);
 }
-.col-3:hover  .ov6 {
+.col6:hover .overlay {
     opacity: 0;
-    transform: translate(100%, -1%);
+    transform: translate(100%, 0%);
 }
-.col-3:hover  .ov7 {
+.col7:hover .overlay {
     opacity: 0;
-    transform: translate(-100%, 100%);
+    transform: translate(-50%, 60%);
 }
-.col-3:hover  .ov8 {
+.col8:hover .overlay {
     opacity: 0;
-    transform: translate(-1%, 50%);
+    transform: translate(0%, 100%);
 }
-.col-3:hover  .ov9 {
+.col9:hover .overlay {
     opacity: 0;
-    transform: translate(60%, 60%);
-}
-.col-3:hover img {
-    opacity: 100%;
-    filter:grayscale(0%);
+    transform: translate(50%, -60%);
 }
 
 .overlay{
