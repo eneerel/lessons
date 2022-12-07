@@ -119,7 +119,8 @@ if(d1>80){
     sum = sum+d1;
 }
 console.log(sum)
-
+ 
+// urjwer
 let a2 = 3;
 let b2 = 7;
 let c2 = 2;
@@ -183,6 +184,7 @@ if( myAge =20){
 let a3 = 5;
 let b3 = 6;
 let c3 = 7;
+
 
 
 

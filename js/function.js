@@ -18,12 +18,14 @@
 
 // function zohioh
 
-let x = function ihbagatoo( x ,y ){
-if (x>y){
-  console.log(" x too n ih")
-} else if  (y>x){
-   console.log("y too n ih")
-} else{ 
-    console.log("ta toogooo oruulna uu")}
-    return( i>x , i<y)
-}
+// let b = function ihbagatoo( x ,y ){
+// if (x>y){
+//   console.log(" x too n ih")
+// } else   (y>x){
+//    console.log("y too n ih")
+// }
+
+// // arraygaas ugsun too baigaag oloh
+// let a = parseInt(prompt("toogoo oruulna uu?"))
+// let x = () => {
+// }
