@@ -88,3 +88,118 @@
       n % 2 === 0;
     }
   }
+  // 8 bodlogo
+// function uppCase(c, v){
+//   for(i=0; i<c.length; i++){
+//       v =v + c[i].toUpperCase() + ' ';
+//   }
+//   return v;
+// }
+// let x = uppCase(['green', 'red', 'Hello'], ' ');
+// console.log(x);
+//9 bodlogo
+function lowCase( c, d){
+   for(i=0; i<c.length; i++){
+       d = d + c[i].toLowerCase() + ' ';
+      }
+      return d;
+}
+let k =lowCase(['Gray', 'iroMan', 'SPIdERMan'], '') 
+console.log(k);
+
+//7 bodlogo anhni too oloh
+
+function primeN(a){
+  if(a===2){
+      return 2;
+  } else{
+      for(let x=2; x<a; x++){
+          if(a%x === 0){
+              return false
+          }
+          return true;
+      }
+      }
+  }
+let b = primeN(67);
+console.log(b);
+
+// tegsh sondgoi too ologch
+function evenOdd(a,  even){
+  for(i=0; i<a.length; i++){
+      if(a[i]%2 ===0){
+           even = even + a[i]+ ' ';
+          }
+      }
+      return even;
+}
+
+let c = evenOdd([2, 5, 4, 6, 7, 11, 22],  []);
+console.log(c);
+
+// sondgoi too
+function Odd(a, odd){
+  for(i=0; i<a.length; i++){
+      if(a[i]%2 !==0){
+            odd = odd + a[i]+ " ";
+          }
+      }
+      return odd;
+}
+
+let o = Odd([2, 5, 4, 6, 7, 11, 22],  []);
+console.log(o);
+
+
+// array sorter
+// function filterM(a){
+//     let v = a.sort();
+//     return v;
+// }
+// let s = filterM([4, 32, 2, 5, 8, -10, 20, 1, 0, -20]);
+// console.log(s);
+
+// array sorter
+// const arr = [3, 1, 4, 1, 5, 9];
+// const compareFn = (a, b) => (a > b ? -1 : 0);
+// arr.sort(compareFn);
+// console.log(arr)
+
+// let arr1 =[4, 32, 2, 5, 8, -10, 20, 1, 0, -20];
+// let s = (a, b) => (a<b ? -1:0);
+// arr1.sort(s);
+// console.log(arr1)
+
+// tip
+function gonchig(n, sum){
+  while(n>=5000 && n<=30000){
+      sum = n+ n*0.15;
+      return sum
+  } return sum = n +n*0.2
+}
+let n1 = parseInt( prompt("Ta toogoo oruulna uu?"));
+let j = gonchig(n1, 0);
+console.log(j);
+//nemegdel tulbur
+function nemegdl(i, sum){
+  while(i>=5000 && i<=30000){
+      sum +=  i*0.15;
+      return sum
+  } return sum += i*0.2
+}
+let n2 = parseInt( prompt("Ta toogoo oruulna uu?"));
+let f = nemegdl(n2, 0);
+console.log(f);
+
+// dundaj oloh
+
+function aver(n, sum){
+  while(n>=5000 && n<=30000){
+      sum = (n+ n*0.15)/2;
+
+      return sum
+  } return sum = (n +n*0.2)/2
+}
+let n3 = parseInt( prompt("Ta toogoo oruulna uu?"));
+let m = aver(n3, 0);
+console.log(m);

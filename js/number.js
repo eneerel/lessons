@@ -6,17 +6,17 @@
 // //simple assignment
 // console.log("simple assignment ");
 // 1;
-// const fName = "Duulga",
-//   lName = "Enkhtur";
+// const fName = "enerel",
+//   lName = "Boldbaatar";
 // console.log(fName, lName);
 // console.log(fName.length);
 // console.log(lName.length);
-// 2, 3;
-// console.log("ТОМ БОЛОН ЖИЖИГ ҮСЭГ РҮҮ ХӨРВҮҮЛЭХ");
-// const jijigUseg = "Loremjdfjkhsd";
-// console.log(jijigUseg.toLowerCase());
-// console.log(jijigUseg.toUpperCase());
-// 4;
+2, 3;
+console.log("ТОМ БОЛОН ЖИЖИГ ҮСЭГ РҮҮ ХӨРВҮҮЛЭХ");
+const jijigUseg = "Loremjdfjkhsd";
+console.log(jijigUseg.toLowerCase());
+console.log(jijigUseg.toUpperCase());
+4;
 // console.log(
 //   "Pinecone academy- н болон  leap хөтөлбөрт тавтай морилго уу?  - г нэг мөр болгон нэгтгэнэ үү. "
 // );
@@ -27,7 +27,7 @@
 // console.log("5.Oguulber zohioh");
 // let country = "Mongolia";
 // let city = "Ulaanbaatar";
-// let age = 24;
+// let age = 20;
 // let job = "software engiiner";
 // let oguulber =
 //   "Намайг " +
