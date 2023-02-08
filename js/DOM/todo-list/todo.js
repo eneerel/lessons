@@ -9,6 +9,7 @@ const cardItem = (text) =>{
                     <div class="actions">
                         <button class="edit" oncilck="editleh(this)"><i class="fas fa-pen"></i></button>
                         <button class="done"><i class="fas fa-check"></i></button>
+             
                         <button class="delete" onclick="ustgah(this)"><i class="fas fa-trash"></i></button>
                     </div>
                 </div>`;
